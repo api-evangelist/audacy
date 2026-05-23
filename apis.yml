@@ -1,0 +1,340 @@
+name: Audacy
+description: >-
+  Audacy, Inc. is a U.S. multi-platform audio and entertainment company that
+  operates the country's second-largest radio group alongside the Audacy
+  streaming app, a major podcast network, and the Amperwave audio ad-tech and
+  distribution platform. Formerly known as Entercom (rebranded to Audacy on
+  March 30, 2021), the company filed prepackaged Chapter 11 bankruptcy on
+  January 7, 2024 and emerged on September 30, 2024 as a privately held company
+  after equitizing approximately $1.6 billion of funded debt and reducing total
+  debt from roughly $1.9 billion to $350 million. The current portfolio spans
+  ~230 radio brands across 47 markets, 200+ million monthly listeners, ~2
+  billion annual podcast downloads, and the Cadence13, Pineapple Street Studios,
+  Podcorn, and BetMGM Network (formerly BetQL) audio brands. There is no public
+  developer API, no published OpenAPI, and no GitHub organization with public
+  repositories; integration is brokered through ad sales, programmatic
+  marketplaces, and the Amperwave platform.
+url: https://github.com/api-evangelist/audacy
+image: https://www.audacyinc.com/favicon.ico
+humanURL: https://www.audacyinc.com
+baseURL: https://www.audacy.com
+tags:
+  - Audio
+  - Radio
+  - Podcasts
+  - Streaming
+  - Broadcasting
+  - Media
+  - Advertising
+  - Content
+  - Sports
+  - News
+  - Music
+  - Entertainment
+  - Audio Advertising
+  - Ad Tech
+  - Programmatic Audio
+  - Audacy
+  - Entercom
+  - Post Bankruptcy
+  - Privately Held
+  - Amperwave
+  - Cadence13
+  - Pineapple Street Studios
+  - Podcorn
+  - BetMGM Network
+  - Creator Lab
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.18'
+type: Index
+apis:
+  - name: Audacy Streaming App
+    description: >-
+      Audacy.com and the Audacy mobile apps deliver live radio, podcasts, sports
+      play-by-play, and exclusive stations across iOS, Android, and connected
+      devices. The product is a consumer streaming surface, not a developer
+      product; there is no public API or OpenAPI definition. Access for third
+      parties is through partner integrations (Sonos Radio U.S. distribution,
+      Amazon DSP for advertising) rather than direct API calls.
+    humanURL: https://www.audacy.com
+    baseURL: https://www.audacy.com
+    tags:
+      - Streaming
+      - Live Radio
+      - Podcasts
+      - Sports
+      - News
+      - Music
+      - Consumer App
+    properties:
+      - type: Portal
+        url: https://www.audacy.com
+      - type: SignUp
+        url: https://www.audacy.com/account/signup
+      - type: Login
+        url: https://www.audacy.com/account/login
+      - type: PrivacyPolicy
+        url: https://www.audacy.com/privacy-policy
+      - type: TermsOfService
+        url: https://www.audacy.com/terms-of-use
+  - name: Audacy Podcast Network
+    description: >-
+      Audacy operates one of the largest podcast networks in the United States,
+      reporting approximately 2 billion annual downloads and 44 million monthly
+      listeners across flagship shows including Office Ladies, The Moth, The
+      Draymond Green Show, The Late Show Pod, and How We Made Your Mother. The
+      network includes the owned studios Cadence13 and Pineapple Street Studios,
+      the influencer-creator marketplace Podcorn, and the Audacy Creator Lab
+      production support program. The catalog spans eight genres: Lifestyle,
+      True Crime, Entertainment & Celebrity, Society & Culture, History, Sports,
+      Comedy, and News, Business & Finance. Distribution is via Apple Podcasts,
+      Spotify, the Audacy app, and standard RSS feeds attached to each show
+      page; there is no documented podcast-network API or centralized RSS index
+      for third-party programmatic ingestion.
+    humanURL: https://www.audacyinc.com/podcasts
+    tags:
+      - Podcasts
+      - Podcast Network
+      - Audio Content
+      - On Demand
+      - Storytelling
+    properties:
+      - type: Portal
+        url: https://www.audacyinc.com/podcasts
+      - type: Showcase
+        url: https://www.audacy.com/podcasts
+      - type: Partners
+        url: https://www.audacyinc.com/podcasts
+  - name: Amperwave
+    description: >-
+      Amperwave is Audacy's cloud-based audio hosting, distribution, and
+      monetization platform serving broadcasters and audio publishers outside
+      Audacy itself. The platform packages three products: Amperwave Streaming
+      for live audio distribution with direct-sold and programmatic ad sales;
+      Amperwave Podcasting for on-demand audio hosting with dynamic ad
+      insertion; and an Ad Decisioning Engine for yield optimization and
+      targeted ad delivery. Capabilities include Nielsen-compatible
+      simulcasting, dynamic ad insertion, frequency capping, and real-time
+      analytics. Public developer documentation and an OpenAPI definition are
+      not published on the marketing site; integration is sales-led.
+    humanURL: https://amperwave.com
+    tags:
+      - Audio Streaming
+      - Podcast Hosting
+      - Dynamic Ad Insertion
+      - Ad Tech
+      - Programmatic Audio
+      - Yield Optimization
+      - Broadcaster Tools
+    properties:
+      - type: Portal
+        url: https://amperwave.com
+      - type: Contact
+        url: https://amperwave.com/contact
+  - name: Audacy Advertising Solutions
+    description: >-
+      Audacy's advertising business sells across the company's broadcast radio,
+      digital streaming, podcast, and event inventory, reaching a stated 200
+      million monthly listeners. Buying happens through Audacy's direct sales
+      team, integrated brand programs from Audacy Creator Lab, and programmatic
+      partners including Amazon DSP. There is no public self-serve advertising
+      API or developer portal exposed to ad buyers.
+    humanURL: https://www.audacyinc.com/advertise
+    tags:
+      - Advertising
+      - Audio Advertising
+      - Broadcast Advertising
+      - Podcast Advertising
+      - Branded Content
+      - Programmatic
+    properties:
+      - type: Portal
+        url: https://www.audacyinc.com/advertise
+      - type: Partners
+        url: https://www.audacyinc.com/advertise
+      - type: Contact
+        url: https://www.audacyinc.com/contact
+  - name: Audacy Radio Stations Network
+    description: >-
+      Audacy is the second-largest radio broadcaster in the United States,
+      operating approximately 230 radio brands across 47 media markets in
+      formats that include news, sports, talk, and every major music genre. Each
+      station is exposed as a streaming URL on Audacy.com and inside the Audacy
+      app, but Audacy does not publish a public stations directory API, JSON
+      feed, or OpenAPI definition; the canonical machine-readable station list
+      is internal.
+    humanURL: https://www.audacy.com/stations
+    tags:
+      - Radio
+      - Broadcast
+      - Stations
+      - News Radio
+      - Sports Radio
+      - Music Radio
+    properties:
+      - type: Portal
+        url: https://www.audacy.com/stations
+common:
+  - type: Portal
+    url: https://www.audacyinc.com
+  - type: Hub
+    url: https://www.audacy.com
+  - type: Customers
+    url: https://www.audacyinc.com/leadership
+  - type: Blog
+    url: https://www.audacyinc.com/news
+  - type: Contact
+    url: https://www.audacyinc.com/contact
+  - type: PrivacyPolicy
+    url: https://www.audacy.com/privacy-policy
+  - type: TermsOfService
+    url: https://www.audacy.com/terms-of-use
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/audacy-inc-
+  - type: X
+    url: https://twitter.com/audacy
+  - type: YouTube
+    url: https://www.youtube.com/@audacy
+  - type: GitHubOrganization
+    url: https://github.com/audacy
+  - type: Features
+    data:
+      - name: Radio brands
+        value: '230+'
+        source: https://www.audacyinc.com/about
+      - name: Monthly listeners
+        value: 200 million+
+        source: https://www.audacyinc.com/about
+      - name: Monthly digital audio listeners
+        value: 60 million
+        source: https://www.audacyinc.com
+      - name: Monthly podcast listeners
+        value: 44 million
+        source: https://www.audacyinc.com/podcasts
+      - name: Annual podcast downloads
+        value: ~2 billion
+        source: https://www.audacyinc.com
+      - name: Media markets served
+        value: 47
+        source: https://en.wikipedia.org/wiki/Audacy,_Inc.
+      - name: Employees
+        value: 4,000+
+        source: https://www.audacyinc.com/about
+  - type: Compliance
+    data:
+      - name: Corporate status
+        value: Privately held following Chapter 11 emergence on 2024-09-30
+        source: https://en.wikipedia.org/wiki/Audacy,_Inc.
+      - name: Controlling shareholder (post-emergence)
+        value: Soros Fund Management
+        source: https://en.wikipedia.org/wiki/Audacy,_Inc.
+      - name: Former name
+        value: Entercom Communications Corporation (rebranded to Audacy 2021-03-30)
+        source: https://en.wikipedia.org/wiki/Audacy,_Inc.
+      - name: Headquarters
+        value: New York, NY
+        source: https://en.wikipedia.org/wiki/Audacy,_Inc.
+  - type: Customers
+    data:
+      - name: President and Chief Executive Officer
+        value: Kelli Turner
+        source: https://www.audacyinc.com/leadership
+      - name: Chief Business Officer
+        value: Chris Oliviero
+        source: https://www.audacyinc.com/leadership
+      - name: Chief Financial Officer
+        value: Rick Rosenthal
+        source: https://www.audacyinc.com/leadership
+      - name: Chief Information Officer
+        value: Steve Rollins
+        source: https://www.audacyinc.com/leadership
+      - name: Chief Legal Officer
+        value: Michael Dash
+        source: https://www.audacyinc.com/leadership
+      - name: Chief Marketing Officer
+        value: Jenny Nelson
+        source: https://www.audacyinc.com/leadership
+      - name: Chief Revenue Officer
+        value: Bob Phillips
+        source: https://www.audacyinc.com/leadership
+      - name: Chief Programming Officer
+        value: Jeff Sottolano
+        source: https://www.audacyinc.com/leadership
+  - type: Partners
+    data:
+      - name: Sonos Radio
+        value: Exclusive U.S. sales and distribution partnership
+        source: https://www.audacyinc.com
+      - name: Amazon DSP
+        value: Programmatic audio advertising partnership
+        source: https://www.audacyinc.com
+      - name: Podscribe
+        value: Podcast attribution measurement
+        source: https://www.audacyinc.com
+      - name: MOGL
+        value: NIL (college athlete) brand partnership
+        source: https://www.audacyinc.com
+  - type: Integrations
+    data:
+      - name: Cadence13
+        value: Audacy-owned podcast studio
+        source: https://en.wikipedia.org/wiki/Audacy,_Inc.
+      - name: Pineapple Street Studios
+        value: Audacy-owned podcast studio
+        source: https://en.wikipedia.org/wiki/Audacy,_Inc.
+      - name: Podcorn
+        value: Audacy-owned influencer-creator podcast marketplace
+        source: https://en.wikipedia.org/wiki/Audacy,_Inc.
+      - name: BetMGM Network (formerly BetQL Network)
+        value: Sports-betting audio network operated by Audacy
+        source: https://www.audacy.com/stations/betmgmnetwork
+      - name: 2400Sports
+        value: Sports content production studio
+        source: https://en.wikipedia.org/wiki/Audacy,_Inc.
+      - name: Audacy Creator Lab
+        value: Internal creator and branded-content production arm
+        source: https://www.audacyinc.com
+      - name: Amperwave
+        value: Audacy-owned audio hosting and ad-tech platform offered to third-party broadcasters
+        source: https://amperwave.com
+  - type: UseCases
+    data:
+      - name: Live radio streaming
+        value: Listening to AM/FM stations via Audacy.com and Audacy apps
+      - name: On-demand podcast listening
+        value: Accessing Audacy-network shows on the Audacy app, Apple Podcasts, and Spotify
+      - name: Audio advertising buying
+        value: Reaching Audacy's broadcast, streaming, and podcast inventory via direct or programmatic deals
+      - name: Third-party broadcaster distribution
+        value: Using Amperwave to stream, host, and monetize audio outside Audacy itself
+      - name: Branded podcast production
+        value: Custom content production through Cadence13, Pineapple Street, and Creator Lab
+  - type: Features
+    name: Bankruptcy and Restructuring Timeline
+    data:
+      - name: Chapter 11 filing
+        value: '2024-01-07 — prepackaged Chapter 11 bankruptcy filed'
+        source: https://en.wikipedia.org/wiki/Audacy,_Inc.
+      - name: Emergence
+        value: '2024-09-30 — emerged from Chapter 11 as a privately held company'
+        source: https://en.wikipedia.org/wiki/Audacy,_Inc.
+      - name: Debt equitized
+        value: '~$1.6 billion of funded debt converted to equity'
+        source: https://en.wikipedia.org/wiki/Audacy,_Inc.
+      - name: Net debt reduction
+        value: 'From ~$1.9 billion to $350 million (~80% reduction)'
+        source: https://en.wikipedia.org/wiki/Audacy,_Inc.
+  - type: Features
+    name: Awards and Recognition
+    data:
+      - name: News awards
+        value: Edward R. Murrow and Gracie awards; #1 audio news group
+        source: https://www.audacyinc.com/news
+      - name: Podcast awards
+        value: Apple Podcasts, Webby, Peabody, and Ambies recognition
+        source: https://www.audacyinc.com/podcasts
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com
+    url: https://apievangelist.com
