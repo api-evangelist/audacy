@@ -70,7 +70,7 @@ apis:
     properties:
       - type: Portal
         url: https://www.audacy.com
-      - type: SignUp
+      - type: Signup
         url: https://www.audacy.com/account/signup
       - type: Login
         url: https://www.audacy.com/account/login
