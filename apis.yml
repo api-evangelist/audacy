@@ -176,6 +176,8 @@ apis:
       - type: Portal
         url: https://www.audacy.com/stations
 common:
+  - type: DomainSecurity
+    url: security/audacy-domain-security.yml
   - type: Portal
     url: https://www.audacyinc.com
   - type: Hub
