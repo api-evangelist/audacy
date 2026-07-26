@@ -15,6 +15,17 @@ description: >-
   repositories; integration is brokered through ad sales, programmatic
   marketplaces, and the Amperwave platform.
 url: https://github.com/api-evangelist/audacy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://www.audacyinc.com/favicon.ico
 humanURL: https://www.audacyinc.com
 baseURL: https://www.audacy.com
@@ -45,136 +56,10 @@ tags:
   - BetMGM Network
   - Creator Lab
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-07-25'
 specificationVersion: '0.18'
 type: Index
-apis:
-  - name: Audacy Streaming App
-    description: >-
-      Audacy.com and the Audacy mobile apps deliver live radio, podcasts, sports
-      play-by-play, and exclusive stations across iOS, Android, and connected
-      devices. The product is a consumer streaming surface, not a developer
-      product; there is no public API or OpenAPI definition. Access for third
-      parties is through partner integrations (Sonos Radio U.S. distribution,
-      Amazon DSP for advertising) rather than direct API calls.
-    humanURL: https://www.audacy.com
-    baseURL: https://www.audacy.com
-    tags:
-      - Streaming
-      - Live Radio
-      - Podcasts
-      - Sports
-      - News
-      - Music
-      - Consumer App
-    properties:
-      - type: Portal
-        url: https://www.audacy.com
-      - type: Signup
-        url: https://www.audacy.com/account/signup
-      - type: Login
-        url: https://www.audacy.com/account/login
-      - type: PrivacyPolicy
-        url: https://www.audacy.com/privacy-policy
-      - type: TermsOfService
-        url: https://www.audacy.com/terms-of-use
-  - name: Audacy Podcast Network
-    description: >-
-      Audacy operates one of the largest podcast networks in the United States,
-      reporting approximately 2 billion annual downloads and 44 million monthly
-      listeners across flagship shows including Office Ladies, The Moth, The
-      Draymond Green Show, The Late Show Pod, and How We Made Your Mother. The
-      network includes the owned studios Cadence13 and Pineapple Street Studios,
-      the influencer-creator marketplace Podcorn, and the Audacy Creator Lab
-      production support program. The catalog spans eight genres: Lifestyle,
-      True Crime, Entertainment & Celebrity, Society & Culture, History, Sports,
-      Comedy, and News, Business & Finance. Distribution is via Apple Podcasts,
-      Spotify, the Audacy app, and standard RSS feeds attached to each show
-      page; there is no documented podcast-network API or centralized RSS index
-      for third-party programmatic ingestion.
-    humanURL: https://www.audacyinc.com/podcasts
-    tags:
-      - Podcasts
-      - Podcast Network
-      - Audio Content
-      - On Demand
-      - Storytelling
-    properties:
-      - type: Portal
-        url: https://www.audacyinc.com/podcasts
-      - type: Showcase
-        url: https://www.audacy.com/podcasts
-      - type: Partners
-        url: https://www.audacyinc.com/podcasts
-  - name: Amperwave
-    description: >-
-      Amperwave is Audacy's cloud-based audio hosting, distribution, and
-      monetization platform serving broadcasters and audio publishers outside
-      Audacy itself. The platform packages three products: Amperwave Streaming
-      for live audio distribution with direct-sold and programmatic ad sales;
-      Amperwave Podcasting for on-demand audio hosting with dynamic ad
-      insertion; and an Ad Decisioning Engine for yield optimization and
-      targeted ad delivery. Capabilities include Nielsen-compatible
-      simulcasting, dynamic ad insertion, frequency capping, and real-time
-      analytics. Public developer documentation and an OpenAPI definition are
-      not published on the marketing site; integration is sales-led.
-    humanURL: https://amperwave.com
-    tags:
-      - Audio Streaming
-      - Podcast Hosting
-      - Dynamic Ad Insertion
-      - Ad Tech
-      - Programmatic Audio
-      - Yield Optimization
-      - Broadcaster Tools
-    properties:
-      - type: Portal
-        url: https://amperwave.com
-      - type: Contact
-        url: https://amperwave.com/contact
-  - name: Audacy Advertising Solutions
-    description: >-
-      Audacy's advertising business sells across the company's broadcast radio,
-      digital streaming, podcast, and event inventory, reaching a stated 200
-      million monthly listeners. Buying happens through Audacy's direct sales
-      team, integrated brand programs from Audacy Creator Lab, and programmatic
-      partners including Amazon DSP. There is no public self-serve advertising
-      API or developer portal exposed to ad buyers.
-    humanURL: https://www.audacyinc.com/advertise
-    tags:
-      - Advertising
-      - Audio Advertising
-      - Broadcast Advertising
-      - Podcast Advertising
-      - Branded Content
-      - Programmatic
-    properties:
-      - type: Portal
-        url: https://www.audacyinc.com/advertise
-      - type: Partners
-        url: https://www.audacyinc.com/advertise
-      - type: Contact
-        url: https://www.audacyinc.com/contact
-  - name: Audacy Radio Stations Network
-    description: >-
-      Audacy is the second-largest radio broadcaster in the United States,
-      operating approximately 230 radio brands across 47 media markets in
-      formats that include news, sports, talk, and every major music genre. Each
-      station is exposed as a streaming URL on Audacy.com and inside the Audacy
-      app, but Audacy does not publish a public stations directory API, JSON
-      feed, or OpenAPI definition; the canonical machine-readable station list
-      is internal.
-    humanURL: https://www.audacy.com/stations
-    tags:
-      - Radio
-      - Broadcast
-      - Stations
-      - News Radio
-      - Sports Radio
-      - Music Radio
-    properties:
-      - type: Portal
-        url: https://www.audacy.com/stations
+apis: []
 common:
   - type: DomainSecurity
     url: security/audacy-domain-security.yml
@@ -336,6 +221,12 @@ common:
       - name: Podcast awards
         value: Apple Podcasts, Webby, Peabody, and Ambies recognition
         source: https://www.audacyinc.com/podcasts
+  - type: Contact
+    url: https://amperwave.com
+  - type: ProductPage
+    url: https://www.audacyinc.com/podcasts
+  - type: ProductPage
+    url: https://www.audacy.com/stations
 maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
