@@ -64,120 +64,47 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-API Evangelist profile of **Audacy, Inc.**, the U.S. multi-platform audio and entertainment company that operates the country's second-largest radio group alongside the Audacy streaming app, a major podcast network, and the Amperwave audio ad-tech platform.
+Audacy, Inc. is a U.S. multi-platform audio and entertainment company that operates the country's second-largest radio group alongside the Audacy streaming app, a major podcast network, and the Amperwave audio ad-tech and distribution platform. Formerly known as Entercom (rebranded to Audacy on March 30, 2021), the company filed prepackaged Chapter 11 bankruptcy on January 7, 2024 and emerged on September 30, 2024 as a privately held company after equitizing approximately $1.6 billion of funded debt and reducing total debt from roughly $1.9 billion to $350 million. The current portfolio spans ~230 radio brands across 47 markets, 200+ million monthly listeners, ~2 billion annual podcast downloads, and the Cadence13, Pineapple Street Studios, Podcorn, and BetMGM Network (formerly BetQL) audio brands. There is no public developer API, no published OpenAPI, and no GitHub organization with public repositories; integration is brokered through ad sales, programmatic marketplaces, and the Amperwave platform.
 
-- Corporate site: https://www.audacyinc.com
-- Consumer hub: https://www.audacy.com
-- Ad-tech platform: https://amperwave.com
+**Areas:** Audio · Radio · Podcasts · Streaming · Broadcasting · Media · Advertising · Content · Sports · News · Music · Entertainment
 
-## Organization
+## Audacy on APIs.io
 
-Audacy, Inc. — formerly **Entercom Communications Corporation**, rebranded to Audacy on March 30, 2021 — is headquartered in New York City and is led by President and CEO **Kelli Turner**.
+Everything profiled for Audacy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/audacy/](https://apis.io/providers/audacy/)** — or go straight to one of the APIs or properties below.
 
-| Metric | Value |
-|---|---|
-| Radio brands | 230+ |
-| Media markets | 47 |
-| Monthly listeners (total) | 200 million+ |
-| Monthly digital audio listeners | 60 million |
-| Monthly podcast listeners | 44 million |
-| Annual podcast downloads | ~2 billion |
-| Employees | 4,000+ |
+### Published properties
 
-### Executive team
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Kelli Turner** — President and CEO
-- **Chris Oliviero** — Chief Business Officer
-- **Rick Rosenthal** — Chief Financial Officer
-- **Steve Rollins** — Chief Information Officer
-- **Michael Dash** — EVP, Chief Legal Officer, Secretary
-- **Jenny Nelson** — Chief Marketing Officer
-- **Bob Phillips** — Chief Revenue Officer
-- **Jeff Sottolano** — Chief Programming Officer
-- **Elizabeth Bramowski** — Chief Accounting Officer & Controller
+#### Security (1)
 
-## Post-bankruptcy status
+Authentication, trust centre, and vulnerability disclosure.
 
-| Event | Date | Detail |
-|---|---|---|
-| Rebrand from Entercom | 2021-03-30 | Entercom Communications becomes Audacy |
-| Chapter 11 filing | 2024-01-07 | Prepackaged Chapter 11 to address debt load |
-| Emergence | 2024-09-30 | Privately held; Soros Fund Management holds controlling interest |
-| Debt equitized | — | ~$1.6 billion of funded debt converted to equity |
-| Net debt reduction | — | From ~$1.9 billion to ~$350 million (~80% reduction) |
+- [Audacy Domain Security](https://apis.io/security/audacy/audacy-domain-security/)
 
-Audacy is now a **privately held company** following its September 30, 2024 emergence from Chapter 11.
+## Where to find this API
 
-## Surfaces profiled
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-This repo profiles the consumer, content, broadcaster, and advertiser surfaces of Audacy. None of these surfaces expose a public developer API; all integration is sales-led or via partner programmatic platforms.
+- [Blog](https://www.audacyinc.com/news)
+- [Terms of service](https://www.audacy.com/terms-of-use)
+- [Privacy policy](https://www.audacy.com/privacy-policy)
+- [GitHub](https://github.com/audacy)
 
-### 1. Audacy Streaming App
-- Live radio, podcasts, sports play-by-play, exclusive stations
-- iOS, Android, web, connected devices
-- https://www.audacy.com
+## API Evangelist rating
 
-### 2. Audacy Podcast Network
-- ~2 billion annual downloads, 44 million monthly listeners
-- Flagship shows: *Office Ladies*, *The Moth*, *The Draymond Green Show*, *The Late Show Pod*, *How We Made Your Mother*
-- Eight genres: Lifestyle, True Crime, Entertainment & Celebrity, Society & Culture, History, Sports, Comedy, News/Business/Finance
-- Distributed via Apple Podcasts, Spotify, Audacy app, per-show RSS
-- https://www.audacyinc.com/podcasts
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-### 3. Amperwave (ad-tech and audio distribution)
-- Cloud-based hosting, streaming distribution, dynamic ad insertion
-- Three products: **Amperwave Streaming**, **Amperwave Podcasting**, **Ad Decisioning Engine**
-- Nielsen-compatible simulcasting, frequency capping, real-time analytics
-- Sold to third-party broadcasters outside Audacy itself
-- https://amperwave.com
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-### 4. Audacy Advertising Solutions
-- Direct, branded, and programmatic ad sales across broadcast, streaming, podcasts, events
-- Amazon DSP programmatic partnership
-- https://www.audacyinc.com/advertise
+## How this profile is made
 
-### 5. Audacy Radio Stations Network
-- ~230 brands across 47 markets
-- News, sports, talk, music formats
-- https://www.audacy.com/stations
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Owned content and ad-tech brands
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Audacy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-| Brand | Function |
-|---|---|
-| **Cadence13** | Premium podcast studio |
-| **Pineapple Street Studios** | Narrative podcast studio |
-| **Podcorn** | Influencer-creator podcast marketplace |
-| **BetMGM Network** (formerly BetQL) | Sports-betting audio network |
-| **2400Sports** | Sports content production studio |
-| **Audacy Creator Lab** | Internal creator and branded-content arm |
-| **Amperwave** | Third-party audio hosting and ad-tech |
+## Open an issue
 
-## Partners
-
-- **Sonos Radio** — exclusive U.S. sales and distribution partnership
-- **Amazon DSP** — programmatic audio advertising
-- **Podscribe** — podcast attribution measurement
-- **MOGL** — NIL (college athlete) brand partnerships
-
-## Developer surface
-
-Audacy publishes **no public developer API, OpenAPI definition, AsyncAPI, JSON Schema, SDK, or CLI**. The `github.com/audacy` organization exists but holds **no public repositories** (and points to an unrelated Paris-based organization, not Audacy, Inc.).
-
-Programmatic integration with Audacy is brokered through:
-- Partner ad-tech platforms (Amazon DSP, Adswizz-style programmatic exchanges)
-- The Amperwave platform (sales-led integration for broadcasters)
-- Standard per-show podcast RSS feeds for content syndication
-
-As a result, this repo intentionally does **not** ship `openapi/`, `asyncapi/`, `json-schema/`, `capabilities/`, `rules/`, or `examples/` directories — there is no public spec material to back them.
-
-## Files in this repo
-
-- [`apis.yml`](apis.yml) — full APIs.json-style index of Audacy's organization, surfaces, leadership, owned brands, partners, and post-bankruptcy posture
-- [`README.md`](README.md) — this file
-
-## API Evangelist tier
-
-- **x-type:** company
-- **x-tier:** 3
-- **x-tier-reason:** no-apis — Audacy is a large, post-bankruptcy media company with no public developer-facing APIs. The profile is organizational and structural.
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/audacy/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
